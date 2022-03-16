@@ -1,0 +1,142 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+header img{
+    width: 100%;
+    height: auto;
+}
+.bar{
+    /* float: none; */
+    position: absolute;
+    top: 410px;
+    width: 100%;
+
+}
+.bar .container{
+    width: 70%;
+}
+.bar img{
+   width: 100%;
+}
+.bar .container .row .col-sm p{
+    font-weight: normal;
+    border-bottom: 2px solid #cdcdcd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.bar .container .row .col-sm p span{
+    font-weight: bolder;
+}
+.bar .container .row .col-sm a{
+    color: #cdcdcd;
+    text-decoration: none;
+
+}
+.bar .container .row .col-sm{
+    border: 10px solid white;
+    margin: 20px;
+    padding: 0;
+}
+.bar .container .row .col-sm:hover{
+    border: 10px solid white;
+    margin: 20px;
+    padding: 0;
+    position: relative;
+    bottom: 10px;
+}
+.bar .container .row .col-sm p:hover{
+    font-weight: normal;
+    border-bottom: 2px solid #f483af;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.bar .container .row .col-sm p span:hover{
+    font-weight: bolder;
+}
+.bar .container .row .col-sm a:hover{
+    color: black;
+    text-decoration: none;
+
+}
+.down{
+    width: 100%;
+}
+.down .container .row-1 .col-sm{
+    position: relative;
+    top: 300px;
+    width: 100%;
+    text-align: center;
+
+}
+.down .container .row-1 .col-sm a{
+    border: 17px solid #f51e6c;
+    border-left: 30px solid #f51e6c;
+    border-right: 30px solid #f51e6c;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    background: #f51e6c;
+}
+.cont .container .row .col-sm{
+    position: relative;
+    top: 355px;
+    width: 100%;
+    padding-bottom: 50px;
+    border-bottom: 5px solid #818181;
+}
+.cont .container .row .col-sm img{
+    width: 93%;
+}
+.cont .container .row .col-sm p{
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cont .container .row .col-sm p span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.cont .container .row .col-sm h6{
+    font-size: 15px;
+    color: #adadad;
+}
+.cont .container .row .col-sm li{
+    list-style-type: none;
+}
+footer{
+    position: relative;
+    top: 370px;
+    width: 100%;
+    display: inline;
+}
+footer p.s{
+    float: left;
+}
+footer p.e{
+    position: relative;
+    float: right;
+}
+footer p span{
+    color: #f51e6c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
